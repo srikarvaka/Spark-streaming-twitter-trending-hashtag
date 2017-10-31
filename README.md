@@ -30,11 +30,10 @@ https://stackoverflow.com/questions/38893655/spark-twitter-streaming-exception-o
 
 # Setup and Run the project
 - install sbt
-- Clone the project at: git clone https://github.com/Sri7Techies/Spark-streaming-twitter-trending-hashtag.git
+- Clone the project at: `git clone https://github.com/Sri7Techies/Spark-streaming-twitter-trending-hashtag.git`
 - Change directory to Spark-streaming-twitter-trending-hashtag and run sbt assembly 
 - This will build a fat .jar file in target/scala_2.11 directory (takes some time)
-- use spark-submit --class classpath --master local[*]  \<path to JAR files\> 
-  to run the app (assuming you've setup spark-submit in your environment variables)
+- ```spark-submit --class classpath --master local[*]  <path to JAR files>``` to run the app (*assuming you've setup spark-submit in your environment variables*)
 - Dont forget to include twitter oauth details in twitter4j.properties file
 
 # Author
